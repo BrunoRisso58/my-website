@@ -1,22 +1,19 @@
 body {
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
-header {
+.top-container {
     text-align: center;
-    background-color: #71C9CE;
+    background-color: #E2F8F6;
     position: relative;
     padding-top: 100px;
 }
 
-.myName {
+h1 {
     margin-top: 0;
     font-family: 'Dancing Script', cursive;
     font-size: 48px;
-}
-
-.myProfession {
-    font-family: 'Montserrat', sans-serif;
 }
 
 .area {
@@ -32,5 +29,14 @@ header {
 .cloud-bottom {
     position: absolute;
     bottom: 300px;
-    left: 300px
+    left: 300px;
+}
+
+.profile img {
+    width: 256px;
+    border-radius: 50%;
+}
+
+.skill {
+    width: 128px;
 }
