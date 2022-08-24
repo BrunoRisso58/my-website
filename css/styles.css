@@ -1,6 +1,12 @@
 body {
     margin: 0;
-    background-color: #E4F9E5;
+}
+
+header {
+    text-align: center;
+    background-color: #30AADD;
+    position: relative;
+    padding-top: 100px;
 }
 
 h1 {
@@ -9,4 +15,16 @@ h1 {
 
 .area {
     text-decoration: underline;
+}
+
+.cloud-top {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+}
+
+.cloud-bottom {
+    position: absolute;
+    bottom: 300px;
+    left: 300px
 }
