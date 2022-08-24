@@ -1,11 +1,12 @@
 body {
     margin: 0;
+    background-color: #E4F9E5;
 }
 
 h1 {
     margin-top: 0;
 }
 
-div {
-    background-color: #E4F9E5;
+.area {
+    text-decoration: underline;
 }
