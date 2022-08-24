@@ -4,13 +4,19 @@ body {
 
 header {
     text-align: center;
-    background-color: #30AADD;
+    background-color: #71C9CE;
     position: relative;
     padding-top: 100px;
 }
 
-h1 {
+.myName {
     margin-top: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+}
+
+.myProfession {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .area {
