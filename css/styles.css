@@ -2,10 +2,12 @@ body {
     margin: 0;
     font-family: 'Merriweather', serif;
     text-align: center;
+    line-height: 2;
+    font-weight: bold;
 }
 
 .top-container {
-    background-color: #E2F8F6;
+    background-color: #EAF6F6;
     position: relative;
     padding-top: 100px;
 }
@@ -14,19 +16,26 @@ h1 {
     margin: 50px auto 0 auto;
     font-family: 'Dancing Script', cursive;
     font-size: 5.625rem;
+    color: #66BFBF;
 }
 
 h2 {
-    font-size: 1.7rem;
-    margin-bottom: 50px;
-}
-
-h2, h3 {
     font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 50px;
+    color: #66BFBF;
+    margin: 0;
 }
 
-.area {
-    text-decoration: underline;
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    color: #11999E;
+}
+
+a {
+    color: #11999E;
+    text-decoration: none;
 }
 
 .cloud-top {
@@ -41,11 +50,74 @@ h2, h3 {
     left: 300px;
 }
 
+.profile {
+    width: 50%;
+    margin: 60px auto;
+    color: #40514E;
+}
+
 .profile img {
     width: 256px;
     border-radius: 50%;
 }
 
-.skill {
-    width: 128px;
+.skills {
+    margin: 60px auto;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 80px auto;
+    text-align: left;
+}
+
+#skill-img-frontend {
+    float: left;
+    margin-right: 30px;
+}
+
+#skill-img-qa {
+    float: right;
+    margin-left: 30px;
+}
+
+.qa-skill-title, .qa-skill-description {
+    text-align: right;
+}
+
+.contact-me {
+    margin: 60px auto;
+}
+
+.contact-me p {
+    margin-bottom: 35px
+}
+
+.btn {
+    background-color: #66BFBF;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    color: #EAF6F6;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 30px
+}
+
+.footer-link {
+    padding: 15px;
+}
+
+.bottom-container p {
+    font-weight: normal;
+}
+
+.divisor {
+    color: #40514e55;
+    font-size: 2rem;
 }
