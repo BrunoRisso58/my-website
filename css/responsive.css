@@ -1,0 +1,52 @@
+@media screen and (max-width: 1024px) {
+
+    .introduce { width: 70% }
+
+    .profile { width: 50% }
+
+    .skill-row { width: 70% }
+
+}
+
+@media screen and (max-width: 620px) {
+
+    h1 { font-size: 4rem }
+
+    .background-code { height: 450px }
+
+    .background-code img { height: 450px }
+
+    .introduce { top: 35% }
+
+    .introduce h2 { font-size: 1.2rem }
+
+    .profile { width: 70% }
+
+    #skill-img-frontend, #skill-img-qa {
+        float: none;
+        margin: 0;
+    }
+
+    .qa-skill-title, .qa-skill-description {
+        text-align: center;
+    }
+
+    .frontend-skill-title, .frontend-skill-description {
+        text-align: center;
+    }
+
+    .contact-me { width: 70% }
+
+}
+
+@media screen and (max-width: 380px) {
+
+    .introduce { width: 80% }
+
+    .profile { width: 80% }
+
+    .skill-row { width: 80% }
+
+    .contact-me { width: 80% }
+
+}
