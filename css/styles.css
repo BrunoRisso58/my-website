@@ -17,7 +17,7 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     margin-bottom: 50px;
-    color: #903749;
+    color: #e84545c8;
 }
 
 h3 {
@@ -77,6 +77,14 @@ a {
     margin: 0px;
 }
 
+.frontend-skill-title {
+    text-align: left;
+}
+
+.frontend-skill-description {
+    text-align: left;
+}
+
 .paragraph {
     color: #F5F2E7;
 }
@@ -88,7 +96,7 @@ a {
 .skill-row {
     width: 50%;
     margin: 80px auto;
-    text-align: left;
+    text-align: center;
 }
 
 #skill-img-frontend {
@@ -99,6 +107,7 @@ a {
 #skill-img-qa {
     float: right;
     margin-left: 30px;
+    filter: invert(90%)
 }
 
 .qa-skill-title, .qa-skill-description {
